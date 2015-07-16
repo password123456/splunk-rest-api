@@ -1,6 +1,6 @@
 #!/bin/bash
-
 ########### Splunk Backup Script ##########
+# created by password123456
 
 # Log timeformat
 BACKUP_DATE=`date +"%Y%m%d"`
