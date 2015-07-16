@@ -1,0 +1,30 @@
+#### Log File ####
+-> splunk_incremental_backup.sh 
+
+# cat splunk_incremental_backup.log
+[+] INDEX : IPSECvpn ====
+[+] BACKUP INDEXED DATE : 2014-12-25 ====
+[+] ==== BACKUP DB : IPSECvpn/db ====
+[*] ==== TARGET COUNT : 0 ====
+[*] ==== NO TARGET to BACKUP (IPSECvpn > db) INDEXED TIME AT 2014-12-25 / ====
+[*] ==== QUIT BACKUP SCRIPTS. ====
+[+] ==== BACKUP DB : IPSECvpn/colddb ====
+[*] ==== TARGET COUNT : 0 ====
+[*] ==== NO TARGET to BACKUP (IPSECvpn > colddb) INDEXED TIME AT 2014-12-25 / ====
+[*] ==== QUIT BACKUP SCRIPTS. ====
+...
+..
+..
+...
+
+----------------------------------------------------------------------------------------------
+[+] ==== TOTAL BACKUPED SIZE : 275G	/splunk_backup/index_backup_incremental ====
+3.9G	/splunk_backup/index_backup_incremental/_internaldb/
+470M	/splunk_backup/index_backup_incremental/weblog/
+651M	/splunk_backup/index_backup_incremental/audit/
+7.9M	/splunk_backup/index_backup_incremental/mysql/
+13G	/splunk_backup/index_backup_incremental/network/
+258G	/splunk_backup/index_backup_incremental/windows/
+436M	/splunk_backup/index_backup_incremental/security/
+275G	total
+========== end 2014-12-26-02:01:01 ==============
