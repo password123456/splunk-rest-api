@@ -1,7 +1,8 @@
+########### Splunk Backup Script ##########
+# created by password123456
+
 #!/bin/bash
 
-
-########### Splunk Index Backup Script ##########
 BACKUP_TIME=`date +%Y-%m-%d-%T`
 BACKUP_DATE=`date +%Y%m%d`
 
