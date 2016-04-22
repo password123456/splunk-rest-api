@@ -10,8 +10,8 @@ Overview:
 
 File:
 ## Splunk backup 
-1.splunk_incremental_backup.sh / Daily Index Backup Script.
-2.splunk_full_backup.sh        / Full Index Backup Script.
+- splunk_incremental_backup.sh / Daily Index Backup Script.
+- splunk_full_backup.sh        / Full Index Backup Script.
 
 ## Splunk remote query
 - splunk_query.py
