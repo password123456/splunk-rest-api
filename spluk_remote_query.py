@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
+__author__ = https://github.com/password123456/
 
 import os
 import urllib, urllib2
