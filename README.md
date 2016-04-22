@@ -1,4 +1,4 @@
-# UseFul Splunk scripts
+# UseFul Splunk scripts collection
 Splunk:
 - http://www.splunk.com/
 
@@ -9,5 +9,9 @@ Overview:
 - various splunk scripts for operation.
 
 File:
-- splunk_incremental_backup.sh ==> Splunk Daily Index Backup Script.
-- splunk_full_backup.sh        ==> Splunk Full Index Backup Script.
+## Splunk backup 
+1.splunk_incremental_backup.sh / Daily Index Backup Script.
+2.splunk_full_backup.sh        / Full Index Backup Script.
+
+## Splunk remote query
+- splunk_query.py
