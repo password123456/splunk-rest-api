@@ -14,4 +14,7 @@ File:
 - splunk_full_backup.sh        / Full Index Backup Script.
 
 ## Splunk remote query
-- splunk_query.py
+- spluk_remote_query.py
+
+## Splunk MAXMIND geo-ip db updater
+splunk_geoip_db_updater.py
