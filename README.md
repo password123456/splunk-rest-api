@@ -17,4 +17,4 @@ File:
 - spluk_remote_query.py
 
 ## Splunk MAXMIND geo-ip db updater
-splunk_geoip_db_updater.py
+- splunk_geoip_db_updater.py
