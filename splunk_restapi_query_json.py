@@ -165,3 +165,64 @@ if __name__ == '__main__':
         sys.exit(0)
     except Exception as e:
         print('%s- [%s] Exception::%s%s' % (Bcolors.Yellow, __name__.__name__, e, Bcolors.Endc))
+
+        
+"""
+sample data
+
+1) json response
+{"preview":false,"offset":0,"result":{"_time":"2022-04-27 04:55:42.000 KST","reserved":"yes","offset":"15907415","Country":"Japan"}}
+{"preview":false,"offset":1,"result":{"_time":"2022-04-26 15:26:58.000 KST","reserved":"yes","offset":"21235789","Country":"United States"}}
+{"preview":false,"offset":2,"result":{"_time":"2022-04-26 15:26:53.000 KST","reserved":"yes","offset":"21235789","Country":"United States"}}
+{"preview":false,"offset":3,"result":{"_time":"2022-04-19 22:31:56.000 KST","reserved":"yes","offset":"18822773","Country":"Vietnam"}}
+{"preview":false,"offset":4,"result":{"_time":"2022-04-19 10:45:03.000 KST","reserved":"yes","offset":"14130169","Country":"Canada"}}
+{"preview":false,"offset":5,"result":{"_time":"2022-04-16 16:50:41.000 KST","reserved":"yes","offset":"23412491","Country":"China"}}
+{"preview":false,"offset":6,"result":{"_time":"2022-04-18 21:05:15.000 KST","reserved":"yes","offset":"23418268","Country":"China"}}
+{"preview":false,"offset":7,"result":{"_time":"2022-04-14 03:16:24.000 KST","reserved":"yes","offset":"14130169","Country":"Canada"}}
+{"preview":false,"offset":8,"result":{"_time":"2022-04-05 18:21:58.000 KST","reserved":"yes","offset":"23389915","Country":"Hong Kong"}}
+{"preview":false,"offset":9,"result":{"_time":"2022-04-05 09:46:27.000 KST","reserved":"yes","offset":"18551538","Country":"United States"}}
+{"preview":false,"offset":10,"result":{"_time":"2022-04-05 09:46:22.000 KST","reserved":"yes","offset":"18551538","Country":"United States"}}
+{"preview":false,"offset":11,"result":{"_time":"2022-04-08 00:01:38.000 KST","reserved":"yes","offset":"23395051","Country":"Hong Kong"}}
+{"preview":false,"offset":12,"result":{"_time":"2022-04-01 14:01:13.000 KST","reserved":"yes","offset":"23381530","Country":"Hong Kong"}}
+{"preview":false,"offset":13,"result":{"_time":"2022-04-01 13:33:32.000 KST","reserved":"yes","offset":"23381530","Country":"Hong Kong"}}
+{"preview":false,"offset":14,"result":{"_time":"2022-03-29 00:56:33.000 KST","reserved":"yes","offset":"23350401","Country":"Hong Kong"}}
+{"preview":false,"offset":15,"result":{"_time":"2022-03-29 00:56:17.000 KST","reserved":"yes","offset":"23350401","Country":"Hong Kong"}}
+{"preview":false,"offset":16,"result":{"_time":"2022-03-29 00:40:54.000 KST","reserved":"yes","offset":"20109903","Country":"Vietnam"}}
+{"preview":false,"offset":17,"result":{"_time":"2022-03-29 00:35:55.000 KST","reserved":"yes","offset":"8050211","Country":"Hungary"}}
+{"preview":false,"offset":18,"result":{"_time":"2022-03-30 14:58:03.000 KST","reserved":"yes","offset":"17516057","Country":"Vietnam"}}
+{"preview":false,"offset":19,"lastrow":true,"result":{"_time":"2022-03-30 21:06:51.000 KST","reserved":"yes","offset":"4058199","Country":"Vietnam"}}
+
+
+
+2) script result
+
+# reservation status of the recently added
+
+no,datetime,reserved,offset,country
+0,2022-04-27 04:55:42.000 KST,yes,15907415,Japan
+1,2022-04-26 15:26:58.000 KST,yes,21235789,United States
+2,2022-04-26 15:26:53.000 KST,yes,21235789,United States
+3,2022-04-19 22:31:56.000 KST,yes,18822773,Vietnam
+4,2022-04-19 10:45:03.000 KST,yes,14130169,Canada
+5,2022-04-16 16:50:41.000 KST,yes,23412491,China
+6,2022-04-18 21:05:15.000 KST,yes,23418268,China
+7,2022-04-14 03:16:24.000 KST,yes,14130169,Canada
+8,2022-04-05 18:21:58.000 KST,yes,23389915,Hong Kong
+9,2022-04-05 09:46:27.000 KST,yes,18551538,United States
+10,2022-04-05 09:46:22.000 KST,yes,18551538,United States
+11,2022-04-08 00:01:38.000 KST,yes,23395051,Hong Kong
+12,2022-04-01 14:01:13.000 KST,yes,23381530,Hong Kong
+13,2022-04-01 13:33:32.000 KST,yes,23381530,Hong Kong
+14,2022-03-29 00:56:33.000 KST,yes,23350401,Hong Kong
+15,2022-03-29 00:56:17.000 KST,yes,23350401,Hong Kong
+16,2022-03-29 00:40:54.000 KST,yes,20109903,Vietnam
+17,2022-03-29 00:35:55.000 KST,yes,8050211,Hungary
+18,2022-03-30 14:58:03.000 KST,yes,17516057,Vietnam
+19,2022-03-30 21:06:51.000 KST,yes,4058199,Vietnam
+
+
+>> Kitchen_House HQ
+>> datetime: 2022-04-27 17:02:39
+>> count: 20
+"""
+
