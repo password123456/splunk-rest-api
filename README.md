@@ -13,7 +13,8 @@
 - Splunk 7.0 later
 
 # File:
-- splunk_restapi_query_json.py: remote query and get JSON response. parse and handling POC code
-- splunk_restapi_query_csv.py : remote query and get CSV response. parse and handling POC code
+- remote query and parse response
+  - JSON response: splunk_restapi_query_json.py
+  - CSV response : splunk_restapi_query_csv.py
 
 # Enjoy it.
